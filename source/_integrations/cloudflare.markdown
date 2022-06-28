@@ -42,7 +42,7 @@ Due to a limitation in the Cloudflare API, you can not use this integration with
 - `.cf`
 - `.ga`
 - `.gq`
-- `.ml`
+- `.ml`d
 - `.tk`
 
 #### Record types
