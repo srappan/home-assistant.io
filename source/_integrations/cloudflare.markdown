@@ -35,6 +35,8 @@ This platform uses the API from [ipify.org](https://www.ipify.org/) to set the p
 
 ### Limitations
 
+This integration can only have 1 instance.
+
 #### Unusable TLDs
 
 Due to a limitation in the Cloudflare API, you can not use this integration with any of the following TLD's:
@@ -48,3 +50,11 @@ Due to a limitation in the Cloudflare API, you can not use this integration with
 #### Record types
 
 This integration can only update A records.
+
+#### Zones
+
+This integrations can only have one instance and only work with one zone/TLD
+
+#### Reconfiguring the integration
+
+To reconfigure the integration you have to delete it and start again, to reselect the Zone or to reselect A records
